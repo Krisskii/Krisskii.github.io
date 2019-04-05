@@ -43,18 +43,20 @@ header.startup h1 {
 }
 
 .btn-xl {
-  padding-left:41%!important;
+  padding: 1rem 2rem; 
 }
 
 .btn-primary {
   background-color: #F05F44;
-  border-color: #F05F44; 
-  padding-left:41%!important;}
+  border-color: #F05F44; }
 
 .btn-primary:hover {
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 5px;
   cursor: pointer;
-  padding-left:41%!important;
 }
+#mc_embed_signup_scroll{
+  padding-left:41% !important;
+}
+
