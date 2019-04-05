@@ -61,7 +61,7 @@ header.startup h1 {
   padding-left:41% !important;
 }
 
-#mc_embed_signup form{
+#mc_embedded_subscribe_form.validate{
     padding:0px 0px 0px 0px !important;
 
     text-align: center !important;
