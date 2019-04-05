@@ -40,11 +40,10 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
-  padding-left:41%!important;
 }
 
 .btn-xl {
-  padding: 1rem 2rem; 
+  padding-left:41%!important;
 }
 
 .btn-primary {
@@ -56,7 +55,4 @@ header.startup h1 {
   border-color: #ee4b08;
   border-width: 5px;
   cursor: pointer;
-}
-.mc_embed_signup_scroll{
-  padding-left:40%!important;
 }
