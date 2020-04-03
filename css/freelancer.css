@@ -41,11 +41,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #00247D;
+    background-color: #DA4C5E
 }
 
 hr.star-dark {
-    border-color:#00247D;
+    border-color:#00247D
 }
 
 hr.star-dark:after {
