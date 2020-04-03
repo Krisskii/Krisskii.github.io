@@ -361,7 +361,7 @@ a:active, a:focus, a:hover {
 }
 
 .text-primary {
-    color:#18bc9c !important
+    color:#5167B8 !important
 }
 
 .text-secondary {
@@ -369,13 +369,13 @@ a:active, a:focus, a:hover {
 }
 
 .btn-primary {
-    background-color: #007bff;
-    border-color:#007bff
+    background-color: #00247D;
+    border-color:#00247D
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #128f76;
-    border-color:#128f76
+    background-color: #00247D;
+    border-color:#00247D
 }
 
 .btn-secondary {
