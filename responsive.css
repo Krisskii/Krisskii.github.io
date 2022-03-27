@@ -17,3 +17,32 @@
     padding-top: 5vw;
 }
 }
+
+@media only screen and (max-width: 800px) {
+    .about-me {
+        width: 100%;
+        height:fit-content;
+        background-color: #00247D;
+    } 
+}
+
+@media only screen and (max-width: 1000px){
+.about-me-row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+}
+}
+
+@media only screen and (max-width: 1000px){
+.about-me-child{
+    width:30vw;
+    height:30vw;
+    background-color: #00247D;
+    margin-left: 1vw;
+    margin-right:1vw;
+    margin-top:2vw;
+    text-align:left;
+}
+}
