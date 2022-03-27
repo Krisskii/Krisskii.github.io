@@ -2,5 +2,18 @@
     .services-row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.services-section{
+    width:100%;
+    height:fit-content;
+    background-color: white;
+    text-align: center;
+    color: #00247D;
+    padding-top: 5vw;
 }
 }
