@@ -16,28 +16,45 @@
   padding-top: 20px;
 }
 .form-control{
-  width:30vw;
-  height: 5vw;
+  width:220px;
+  height: 25px;
   border: 1px solid;
   box-shadow: 5px 5px 5px rgb(185, 185, 185);
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
 }
+@media only screen and (max-width: 1000px) {
+  .form-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+  }
+}
+
 .form-control-msg{
-  width:60vw;
-  height:30vw;
+  width:453PX;
+  height: 250px;;
   border: 0px;
   margin-top: 20px;
   box-shadow: 5px 5px 5px rgb(185, 185, 185);
   border: 1px solid;
   text-align: left;
 }
+@media only screen and (max-width: 1000px) {
+  .form-control-msg{
+    width: 220px;
+    height: 250px;;
+    border: 0px;
+  }
+}
+
 .btn{
   width:60vw;
   height:5vw;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 2em;
+  font-size: 3vw;
   background-color: #4367c4;
 
 }
