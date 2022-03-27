@@ -24,6 +24,7 @@
 .logo{
     width:10vw;
 }
+
 .logo-name{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
@@ -52,7 +53,9 @@
 
 }
 .profile{
-    height: 400px;
+    height: 25%;
+    width: 70%;
+    max-height: 500px;
     border-radius: 70%;
     display: block;
     float: center;
@@ -63,24 +66,27 @@
 }
 .name{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
+    font-size: 5vw;
     color: white;
     padding-top: 10px;
 }
-.services{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
-    color: #00247D;
-}
+
 .introduction{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
+    font-size: 3vw;
     color: white;
     padding-top: 10px;
 }
+
+.services{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    color: #00247D;
+}
+
 .services-section{
     width:100%;
-    height:40vw;
+    height:100vw;
     background-color: white;
     text-align: center;
     color: #00247D;
@@ -88,14 +94,14 @@
 }
 .services{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
+    font-size: 3vw;
     color: #00247D;
 }
 .services-row{
     display: flex;
-    justify-content: center;
-
+    justify-content: space-around;
 }
+
 .block{
     width:30vw;
     height:50vw;
@@ -240,7 +246,7 @@
     color: white;
     padding-top: 10px;
 }
-.link{
+.link {
     text-decoration: underline;
     text-decoration-color: white;
     color: white;
